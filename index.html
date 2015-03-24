@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>interMAPtive</title>
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- BOOTSTRAP Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
+    <!-- BOOTSTRAP Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <!-- BOOTSTRAP Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- FONT AWESOME-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <style>
+        .navbar-inverse { background-color: #222222}
+        .navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #}
+        .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #080808}
+        .dropdown-menu { background-color: #ffffff}
+        .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #428bca}
+        .navbar-inverse { background-image: none; }
+        .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+        .navbar-inverse { border-color: #080808}
+        .navbar-inverse .navbar-brand { color: #fff}
+        .navbar-inverse .navbar-brand:hover { color: #ffffff}
+        .navbar-inverse .navbar-nav>li>a { color: #999999}
+        .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #ffffff}
+        .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #ffffff}
+        .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #ffffff}
+        .dropdown-menu>li>a { color: #333333}
+        .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #ffffff}
+        .navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+        .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #ffffff}
+        .navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+        .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #ffffff}
+        
+        .content {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .card {
+            text-align: center;
+            vertical-align: middle;
+            padding: .5em;
+        }
+        .outline {
+            padding: 5em;
+            background-size: 100% auto;
+            height: 225px;
+        }
+        .outline h3 {
+            visibility: visible;
+            color: #999;
+            opacity: .5;
+            text-shadow:    
+               -1px -1px #fff,  
+                1px -1px #fff,
+                -1px 1px #fff,
+                 1px 1px #fff;
+        }
+        .outline:hover h3{
+            color: #666;
+            opacity: 1;
+            visibility: visible;
+            text-shadow:    
+               -1px -1px #fff,  
+                1px -1px #fff,
+                -1px 1px #fff,
+                 1px 1px #fff;
+        }
+        .outline:hover a{
+            color: #999;
+        }
+
+    </style>
+    
+</head>
+
+
+<body>
+
+<header class="navbar navbar-inverse navbar-static-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="index.html" class="navbar-brand">interMAPtive</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="index.html">Projects</a>
+        </li>
+        <li>
+          <a href="radical.html">About Radical Cartography</a>
+        </li>
+        <li>
+          <a href="me.html">About the Cartographer</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class= "content">
+    <div style="text-align: center; margin: 50px;">
+        <h1>interMAPtive</h1>
+        <h4><i>rethinking spaces with maps that move</i></h4>
+    </div>
+    <a href="http://ellencurrin.github.io/UNCsolarMap/">
+        <div class="col-md-4 card">
+            <div class="outline" style="background-image:url('images/uncsolar.png');">
+                <h3>UNC Solar Map</h3>
+            </div>
+        </div>
+    </a>
+    <a href="http://ellencurrin.github.io/twincities/">
+        <div class="col-md-4 card">
+            <div class="outline" style="background-image:url('images/twincities.png');">
+                <h3>Twin Cities</h3>
+            </div>
+        </div>
+    </a>
+    <a href="http://ellencurrin.com/ncbikesafety/">
+        <div class="col-md-4 card">
+            <div class="outline" style="background-image:url('images/ncbikes.png');">
+                <h3>NC Bike Safety</h3>
+            </div>
+        </div>
+    </a>
+    <a href="http://ellencurrin.github.io/ukgeog/">
+        <div class="col-md-4 card">
+            <div class="outline" style="background-image:url('images/ukgeog.png');">
+                <h3>British Geographies</h3>
+            </div>
+        </div>
+    </a>
+    <a href="radical.html">
+        <div class="col-md-4 card">
+            <div class="outline" style="background-image:url('images/mississippi.png');">
+                <h3>About Radical Cartography</h3>
+            </div>
+        </div>
+    </a>
+    <a href="me.html">
+        <div class="col-md-4 card">
+            <div class="outline" style="background-image:url('images/stamen.png');">
+                <h3>About the Cartographer</h3>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+</body>
+</html>
